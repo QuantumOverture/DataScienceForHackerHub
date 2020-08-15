@@ -16,6 +16,8 @@
 
 ## Analysis
 > Certain algorthims that can predict a lot of useful things (like machine learning algos) require a lot of data to be super effective. Companies pay big bucks for this. Imagine this: Coke wants to find what type of people acutally buy their products so they can market their products more effectively. They can get "trace" data from transactions or other means and run an unsupervised machine learning algorithm to segment their market audience for them! 
+Trace data is data that generated as a result of a digital transaction or exchange.
+
 
 ## Cool! But where do I start?
 > With the data of course(after you have formulated a problem and road map/plan)! Websites are one source of data. Telcomm data, sensor data and other sources exist as well: ripe for the taking. Please don't steal data though! Always look at the robot.txt before setting up a bot/script to scrape data from a page(https://towardsdatascience.com/scraping-the-internets-most-popular-websites-a4c6f0be382d).  
@@ -59,7 +61,7 @@ BookFile.close()
 # https://stackoverflow.com/questions/56478652/scraping-text-in-h3-and-p-tags-using-beautifulsoup-python
 ```
 # Now what?
-Well that is how we prep our web data for analysis! We ask the web server for data and clean it up. We put it into a format/storage method that is suitable to our needs(like a csv file if wanted to open it up in Excel or Google Sheets). Then we read in the stored info and analyze it with different statistical methods to predict future trends or find patterns! In real life applications, we would have a lot more data and more formating/cleaning would have to be done.
+> Well that is how we prep our web data for analysis! We ask the web server for data and clean it up. We put it into a format/storage method that is suitable to our needs(like a csv file if wanted to open it up in Excel or Google Sheets). Then we read in the stored info and analyze it with different statistical methods to predict future trends or find patterns! In real life applications, we would have a lot more data and more formating/cleaning would have to be done.
 
 # Next week
-We will use a csv data set to make different predictions in R!
+> We will use a csv data set to make different predictions in R!
