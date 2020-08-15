@@ -1,5 +1,7 @@
 # Jumping into the deep end of **"Data Science"**
+##### By: Mohammad Ismail Daud 
 ***
+
 ## What this guide is
 > A super basic overview of data science techniques. I am in no way a seasoned expert. I am just sharing my experience overall. There might many mistakes in this guide(iy uo notice any please setup a pull request) ,so use this guide as more of an outline rather than a textbook. I will try to link to other resources that will go more in depth with regards to certain topics that I will discuss.
 
@@ -39,12 +41,22 @@ BSoup = BeautifulSoup(BookStorePageHTML, features="html5lib")
 BookNames = BSoup.find_all(['h3'])
 
 # Go through each <h3> tag in the list and extract the title attributes of the <a> things that are nested in them
+# We add some additional formating at the end to correctly format as a csv
+BookNameList = []
 for i in BookNames:
-  print(i.find("a").get("title"))
+  BookNameList.append((i.find("a").get("title")).replace(",","")+",\n")
+
+
+# Open/create a file and shove our data into it
+BookFile = open("./BookNames.csv","w")
+BookFile.writelines(BookNameList)
+BookFile.close()
+
+
 
 # Sources Used:
 #https://www.practicepython.org/exercise/2014/06/06/17-decode-a-web-page.html
 # https://stackoverflow.com/questions/56478652/scraping-text-in-h3-and-p-tags-using-beautifulsoup-python
 ```
 # Now what?
-
+Well know you know 
