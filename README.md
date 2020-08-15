@@ -15,13 +15,13 @@
 > The internet has a lot of data. Like a lot. What would you rather do: go through hundreds of pages of a website to get price data for houses in your city or run a script to do that work for you. Webscraping is just that! A script that asks and "cleans" data from a website(s). Okay now what? I have data. Big whoop. 
 
 ## Analysis
-> Certain algorthims that can predict a lot of useful things (like machine learning algos) require a lot of data to be super effective. Companies pay big bucks for this. Imagine this: Coke wants to find what type of people acutally buy their products so they can market their products more effectively. They can get "trace" data from transactions or other means and run a unsupervised machine learning algorithm to segment their market audience for them! 
+> Certain algorthims that can predict a lot of useful things (like machine learning algos) require a lot of data to be super effective. Companies pay big bucks for this. Imagine this: Coke wants to find what type of people acutally buy their products so they can market their products more effectively. They can get "trace" data from transactions or other means and run an unsupervised machine learning algorithm to segment their market audience for them! 
 
 ## Cool! But where do I start?
 > With the data of course(after you have formulated a problem and road map/plan)! Websites are one source of data. Telcomm data, sensor data and other sources exist as well: ripe for the taking(please don't steal data though https://towardsdatascience.com/scraping-the-internets-most-popular-websites-a4c6f0be382d)! 
 
 ## Get to the point ya foo'
-> Okay, okay...  So we are going to pratice getting data from a website. We are going find the names of the books on this fictional e-commerce website. Before that though: know that the web works by clients(user computer) asking for info/html/css/etc. from company coumputers(servers).
+> Okay, okay...  So we are going to practice getting data from a website. We are going find the names of the books on this fictional e-commerce website. Before that though: know that the web works by clients(users) asking for info/html/css/etc. from company coumputers(servers).
 Run this code here: https://repl.it/@IsmailDaud/BookStoreScrape#main.py
 ```
 # A library that will help us make "requests" to our target website.
