@@ -3,7 +3,7 @@
 ***
 
 ## What this guide is
-> A super basic overview of data science techniques. I am in no way a seasoned expert. I am just sharing my experience overall. There might many mistakes in this guide(iy uo notice any please setup a pull request) ,so use this guide as more of an outline rather than a textbook. I will try to link to other resources that will go more in depth with regards to certain topics that I will discuss.
+> A super basic overview of data science techniques. I am in no way a seasoned expert. I am just sharing my experience overall. There might many mistakes in this guide(if you notice any please setup a pull request) ,so use this guide as more of an outline rather than a textbook. I will try to link to other resources that will go more in depth with regards to certain topics that I will discuss.
 
 ## Table of contents:
 1. Webscraping with Python(Week#1)
@@ -36,7 +36,7 @@ URL = "http://books.toscrape.com/"
 BookStorePage = requests.get(URL)
 BookStorePageHTML = BookStorePage.text
 
-# Use the beautfil soup library to find all the <h3> tags 
+# Use the beautiful soup library to find all the <h3> tags 
 BSoup = BeautifulSoup(BookStorePageHTML, features="html5lib")
 BookNames = BSoup.find_all(['h3'])
 
