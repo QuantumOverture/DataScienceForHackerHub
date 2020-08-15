@@ -1,4 +1,4 @@
-# Jumping into the deep end of **"Data Science"**
+# Jumping into **"Data Science"**
 ##### By: Mohammad Ismail Daud 
 ***
 
