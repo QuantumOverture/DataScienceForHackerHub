@@ -1,6 +1,5 @@
 # Jumping into the deep end of **"Data Science"**
 ***
-![Data Science LifeCycle](https://i.pinimg.com/originals/a7/a5/99/a7a599ae7e41f233cac0149166e37e4c.png)
 ## What this guide is
 > A super basic overview of data science techniques. I am in no way a seasoned expert. I am just sharing my experience overall. There might many mistakes in this guide(iy uo notice any please setup a pull request) ,so use this guide as more of an outline rather than a textbook. I will try to link to other resources that will go more in depth with regards to certain topics that I will discuss.
 
