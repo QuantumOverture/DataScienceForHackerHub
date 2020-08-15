@@ -12,7 +12,7 @@
 # ***Webscraping with Python(Week#1)***
 
 ## What are we going to do and what is web scraping?
-> The internet has a lot of data. Like a lot. What would you rather do: go through hundreds of pages of a website to get price data for houses in your city or run a script to do that work for you. Webscraping is just that! A script that asks and "cleans" data from a website(s). Okay now what? I have data. Big whoop. 
+> The internet has a lot of data. Like a lot. What would you rather do: go through hundreds of pages of a website to get price data for houses in your city or run a script to do that work for you. Webscraping is just that! A script that asks and extract useful information from a website(s). Okay now what? I have data. Big whoop. 
 
 ## Analysis
 > Certain algorthims that can predict a lot of useful things (like machine learning algos) require a lot of data to be super effective. Companies pay big bucks for this. Imagine this: Coke wants to find what type of people acutally buy their products so they can market their products more effectively. They can get "trace" data from transactions or other means and run an unsupervised machine learning algorithm to segment their market audience for them! 
