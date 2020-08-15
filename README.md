@@ -57,7 +57,7 @@ BookFile.close()
 
 
 # Sources Used:
-#https://www.practicepython.org/exercise/2014/06/06/17-decode-a-web-page.html
+# https://www.practicepython.org/exercise/2014/06/06/17-decode-a-web-page.html
 # https://stackoverflow.com/questions/56478652/scraping-text-in-h3-and-p-tags-using-beautifulsoup-python
 ```
 # Now what?
