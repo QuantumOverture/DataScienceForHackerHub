@@ -59,4 +59,7 @@ BookFile.close()
 # https://stackoverflow.com/questions/56478652/scraping-text-in-h3-and-p-tags-using-beautifulsoup-python
 ```
 # Now what?
-Well know you know 
+Well that is how we prep our web data for analysis! We ask the web server for data and clean it up. We put it into a format/storage method that is suitable to our needs(like a csv file if wanted to open it up in Excel or Google Sheets). Then we read in the stored info and analysis with different statistical methods to predict stuff or find patterns! In real life applications, we would have a lot more data and more formating.
+
+# Next week
+We will use a csv data set to make different predictions in R!
