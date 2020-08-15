@@ -18,7 +18,7 @@
 > Certain algorthims that can predict a lot of useful things (like machine learning algos) require a lot of data to be super effective. Companies pay big bucks for this. Imagine this: Coke wants to find what type of people acutally buy their products so they can market their products more effectively. They can get "trace" data from transactions or other means and run an unsupervised machine learning algorithm to segment their market audience for them! 
 
 ## Cool! But where do I start?
-> With the data of course(after you have formulated a problem and road map/plan)! Websites are one source of data. Telcomm data, sensor data and other sources exist as well: ripe for the taking(please don't steal data though https://towardsdatascience.com/scraping-the-internets-most-popular-websites-a4c6f0be382d)! 
+> With the data of course(after you have formulated a problem and road map/plan)! Websites are one source of data. Telcomm data, sensor data and other sources exist as well: ripe for the taking. Please don't steal data though! Always look at the robot.txt before setting a bot/script to scrape data froma a page.  
 
 ## Get to the point ya foo'
 > Okay, okay...  So we are going to practice getting data from a website. We are going find the names of the books on this fictional e-commerce website. Before that though: know that the web works by clients(users) asking for info/html/css/etc. from company coumputers(servers).
