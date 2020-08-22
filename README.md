@@ -99,6 +99,9 @@ abline(RegressionLine,col="orange",lwd=3)
 # Are they correlated?
 cor(Data$Schooling,Data$Life.expectancy,use="complete.obs")
 
+# Sources Used:
+# https://www.dummies.com/programming/r/how-to-deal-with-missing-data-values-in-r/
+# https://www.kaggle.com/kumarajarshi/life-expectancy-who
 
 ```
 
